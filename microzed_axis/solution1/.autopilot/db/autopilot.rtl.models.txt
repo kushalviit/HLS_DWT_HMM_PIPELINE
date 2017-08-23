@@ -1,0 +1,7 @@
+HLS_hmm_fadd_32ns_32ns_32_5_full_dsp
+HLS_hmm_fmul_32ns_32ns_32_4_max_dsp
+HLS_hmm_fdiv_32ns_32ns_32_16
+HLS_hmm_mux_3to1_sel2_32_1
+HLS_hmm_ou
+HLS_hmm_CONTROL_BUS_s_axi
+HLS_hmm

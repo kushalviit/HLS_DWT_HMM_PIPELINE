@@ -1,0 +1,20 @@
+   Compiling ../../../../hmm_test.cpp in debug mode
+   Compiling ../../../../hmmaccel.cpp in debug mode
+   Generating csim.exe
+DEBUGGING AXI4 STREAMING DATA TYPES!
+
+Matlab output: 
+0.974431   0.025568   0.000000 
+HLS output: 
+
+Matrixes identical ... Test successful!
+
+DEBUGGING AXI4 STREAMING DATA TYPES!
+
+Matlab output: 
+0.865760   0.134240  0.000000  
+HLS output: 
+0.873436 0.126564 0.000000 1.140085 0.555292 0.259995 
+Matrixes identical ... Test successful!
+
+@I [SIM-1] CSim done with 0 errors.

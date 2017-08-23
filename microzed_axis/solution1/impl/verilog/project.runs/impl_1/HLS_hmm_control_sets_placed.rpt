@@ -1,0 +1,131 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sat Aug 19 13:45:39 2017
+| Host         : Oruklu-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file HLS_hmm_control_sets_placed.rpt
+| Design       : HLS_hmm
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    78 |
+| Minimum Number of register sites lost to control set restrictions |    73 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1689 |          473 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             285 |          101 |
+| Yes          | No                    | No                     |            2251 |          633 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              38 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------+---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+| Clock Signal |                   Enable Signal                   |                                                                Set/Reset Signal                                                               | Slice Load Count | Bel Load Count |
++--------------+---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+|  ap_clk      | ap_sig_bdd_333                                    |                                                                                                                                               |                1 |              4 |
+|  ap_clk      | ap_sig_bdd_540                                    |                                                                                                                                               |                1 |              4 |
+|  ap_clk      | HLS_hmm_CONTROL_BUS_s_axi_U/waddr                 |                                                                                                                                               |                2 |              4 |
+|  ap_clk      | ap_sig_bdd_680                                    |                                                                                                                                               |                1 |              4 |
+|  ap_clk      | ap_sig_bdd_780                                    |                                                                                                                                               |                1 |              4 |
+|  ap_clk      | ap_sig_bdd_950                                    |                                                                                                                                               |                2 |              4 |
+|  ap_clk      | ap_sig_bdd_161                                    |                                                                                                                                               |                1 |              4 |
+|  ap_clk      | ap_sig_bdd_207                                    |                                                                                                                                               |                1 |              4 |
+|  ap_clk      | ap_sig_bdd_288                                    |                                                                                                                                               |                1 |              4 |
+|  ap_clk      | HLS_hmm_CONTROL_BUS_s_axi_U/ar_hs                 |                                                                                                                                               |                1 |              5 |
+|  ap_clk      | indvar_flatten_reg_3690                           | ap_reg_ppiten_pp2_it00                                                                                                                        |                2 |              6 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U4/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/RESULT_REG.NORMAL.exp_op_reg[0] |                3 |              8 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U7/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/RESULT_REG.NORMAL.exp_op_reg[0] |                3 |              8 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U2/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/RESULT_REG.NORMAL.exp_op_reg[0] |                3 |              8 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U3/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/RESULT_REG.NORMAL.exp_op_reg[0] |                3 |              8 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U5/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/RESULT_REG.NORMAL.exp_op_reg[0] |                3 |              8 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U6/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/RESULT_REG.NORMAL.exp_op_reg[0] |                3 |              8 |
+|  ap_clk      |                                                   | HLS_hmm_fdiv_32ns_32ns_32_16_U8/HLS_hmm_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/EXP/STATE_UP_DELAY/i_pipe/SR[0]                       |               10 |             22 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U7/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/SR[0]                           |                7 |             22 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U2/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/SR[0]                           |                7 |             22 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U3/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/SR[0]                           |                7 |             22 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U4/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/SR[0]                           |                7 |             22 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U5/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/SR[0]                           |                8 |             22 |
+|  ap_clk      |                                                   | HLS_hmm_fmul_32ns_32ns_32_4_max_dsp_U6/HLS_hmm_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/EXP/SIG_DELAY/i_pipe/SR[0]                           |                7 |             22 |
+|  ap_clk      | tran_mat_2_2_18_reg_463                           |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | p_4_in                                            |                                                                                                                                               |               12 |             32 |
+|  ap_clk      | HLS_hmm_CONTROL_BUS_s_axi_U/j_0_i_reg_3110143_out |                                                                                                                                               |                5 |             32 |
+|  ap_clk      | tran_mat_2_2_1_reg_391                            |                                                                                                                                               |                9 |             32 |
+|  ap_clk      | tran_mat_2_2_31_reg_475                           |                                                                                                                                               |                8 |             32 |
+|  ap_clk      | tran_mat_2_2_33_reg_451                           |                                                                                                                                               |               15 |             32 |
+|  ap_clk      | tran_mat_2_2_6_reg_415                            |                                                                                                                                               |               15 |             32 |
+|  ap_clk      | input1_2_s_reg_275                                |                                                                                                                                               |                5 |             32 |
+|  ap_clk      | input1_3_6_reg_287                                |                                                                                                                                               |                4 |             32 |
+|  ap_clk      | input1_3_9_reg_299                                |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | input2_1_s_reg_334                                |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | input2_2_4_reg_346                                |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | input2_2_s_reg_322                                |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | j_3_i20_i_i_reg_8071                              | ap_reg_ppiten_pp7_it00                                                                                                                        |                9 |             32 |
+|  ap_clk      | p_1_in                                            |                                                                                                                                               |                9 |             32 |
+|  ap_clk      | tmp_36_reg_29820                                  |                                                                                                                                               |                9 |             32 |
+|  ap_clk      | reg_11450                                         |                                                                                                                                               |               11 |             32 |
+|  ap_clk      | reg_11510                                         |                                                                                                                                               |                5 |             32 |
+|  ap_clk      | reg_11511                                         |                                                                                                                                               |               12 |             32 |
+|  ap_clk      | reg_1151112_out                                   |                                                                                                                                               |               11 |             32 |
+|  ap_clk      | scale_reg_263                                     |                                                                                                                                               |               10 |             32 |
+|  ap_clk      | sum1_1_s_reg_974                                  |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | sum1_1_s_reg_9741                                 |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | sum1_2_s_reg_962                                  |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | sum_1_s_reg_724                                   |                                                                                                                                               |                8 |             32 |
+|  ap_clk      | sum_1_s_reg_7241                                  |                                                                                                                                               |                5 |             32 |
+|  ap_clk      | sum_2_s_reg_712                                   |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | tem_1_s_reg_522                                   |                                                                                                                                               |               10 |             32 |
+|  ap_clk      | tem_2_10_reg_570                                  |                                                                                                                                               |                7 |             32 |
+|  ap_clk      | tem_2_s_reg_510                                   |                                                                                                                                               |                8 |             32 |
+|  ap_clk      | temp_out_1_1_s_reg_1022                           |                                                                                                                                               |               16 |             32 |
+|  ap_clk      | temp_out_1_1_s_reg_10221                          |                                                                                                                                               |               14 |             32 |
+|  ap_clk      | temp_out_1_s_reg_772                              |                                                                                                                                               |                5 |             32 |
+|  ap_clk      | temp_out_2_1_s_reg_1010                           |                                                                                                                                               |               15 |             32 |
+|  ap_clk      | temp_out_2_4_reg_784                              |                                                                                                                                               |                6 |             32 |
+|  ap_clk      | temp_out_2_s_reg_760                              |                                                                                                                                               |                6 |             32 |
+|  ap_clk      | tran_mat_1_1_1_reg_439                            |                                                                                                                                               |               11 |             32 |
+|  ap_clk      | tran_mat_1_2_1_reg_427                            |                                                                                                                                               |               11 |             32 |
+|  ap_clk      | tran_mat_2_1_1_reg_403                            |                                                                                                                                               |                9 |             32 |
+|  ap_clk      | tran_mat_2_2_12_reg_487                           |                                                                                                                                               |               11 |             32 |
+|  ap_clk      | indvar_flatten_reg_3690                           |                                                                                                                                               |                8 |             34 |
+|  ap_clk      | ap_reg_ppiten_pp13_it10                           |                                                                                                                                               |               23 |             64 |
+|  ap_clk      | ap_reg_ppiten_pp5_it1035_out                      |                                                                                                                                               |               21 |             64 |
+|  ap_clk      | temp_out_2_12_reg_31930                           |                                                                                                                                               |               24 |             64 |
+|  ap_clk      | ap_reg_ppiten_pp10_it1057_out                     |                                                                                                                                               |               24 |             64 |
+|  ap_clk      |                                                   | HLS_hmm_CONTROL_BUS_s_axi_U/ap_rst_n_inv                                                                                                      |               30 |             83 |
+|  ap_clk      | prod1_0_2_s_reg_915                               |                                                                                                                                               |               22 |             96 |
+|  ap_clk      | prod_0_1_s_reg_677                                |                                                                                                                                               |               26 |             96 |
+|  ap_clk      | prod_0_2_4_reg_689                                |                                                                                                                                               |               26 |             96 |
+|  ap_clk      | prod_0_2_s_reg_665                                |                                                                                                                                               |               25 |             96 |
+|  ap_clk      | prod1_0_1_s_reg_927                               |                                                                                                                                               |               22 |             96 |
+|  ap_clk      | prod1_0_2_4_reg_939                               |                                                                                                                                               |               24 |             96 |
+|  ap_clk      | tmp_16_1_reg_30530                                |                                                                                                                                               |               31 |             96 |
+|  ap_clk      |                                                   |                                                                                                                                               |              498 |           1780 |
++--------------+---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,975 @@
+11:19:41 **** Build of project dwt_hmm_timer_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/HLS_hmm_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/HLS_hmm_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/tmrctr_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axidma"
+In file included from xaxidma.h:470:0,
+                 from xaxidma.c:83:
+xaxidma.c: In function 'XAxiDma_Reset':
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/HLS_hmm_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/HLS_hmm_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling HLS_hmm"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/tmrctr_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/tmrctr_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling tmrctr"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+11:21:31 **** Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+11:50:10 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+make: Nothing to be done for `all'.
+11:50:46 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:164:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,
+  ^
+../src/helloworld.c:164:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+../src/helloworld.c:167:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:167:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+../src/helloworld.c:178:8: warning: variable 'dwt_out' set but not used [-Wunused-but-set-variable]
+  float dwt_out[128];
+        ^
+../src/helloworld.c:167:8: warning: unused variable 'emmision' [-Wunused-variable]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+        ^
+../src/helloworld.c:163:8: warning: variable 'scaler' set but not used [-Wunused-but-set-variable]
+  float scaler[NUM_TESTS+1];
+        ^
+../src/helloworld.c:162:11: warning: variable 'bw_seq' set but not used [-Wunused-but-set-variable]
+     float bw_seq[NOS][NUM_TESTS+1];
+           ^
+../src/helloworld.c:161:8: warning: variable 'fw_seq' set but not used [-Wunused-but-set-variable]
+  float fw_seq[NOS][NUM_TESTS+1];
+        ^
+../src/helloworld.c:153:12: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+  int i, j, k;
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/lib_hmm_hw.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_hmm_hw.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lib_hmm_hw.d" -MT"src/lib_hmm_hw.d" -o "src/lib_hmm_hw.o" "../src/lib_hmm_hw.c"
+../src/lib_hmm_hw.c: In function 'Start_HW_hmm':
+../src/lib_hmm_hw.c:123:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/lib_hmm_hw.c:128:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+'Finished building: ../src/lib_hmm_hw.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81024	   3168	  24412	 108604	  1a83c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+11:52:53 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,
+  ^
+../src/helloworld.c:188:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+../src/helloworld.c:191:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:191:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+../src/helloworld.c:177:8: warning: variable 'finout' set but not used [-Wunused-but-set-variable]
+  float finout[NOS][128];
+        ^
+../src/helloworld.c:174:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j, k;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+C:\Users\Hanyan\Desktop\MICRO_HMM_2\MICRO_HMM.sdk\dwt_hmm_timer\Debug/../src/helloworld.c:231: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [dwt_hmm_timer.elf] Error 1
+11:53:51 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+C:\Users\Hanyan\Desktop\MICRO_HMM_2\MICRO_HMM.sdk\dwt_hmm_timer\Debug/../src/helloworld.c:231: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [dwt_hmm_timer.elf] Error 1
+11:54:24 **** Clean-only build of configuration Debug for project dwt_hmm_timer ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o  ./src/helloworld.d ./src/lib_hmm_hw.d ./src/platform.d  dwt_hmm_timer.elf.size  dwt_hmm_timer.elf
+' '
+11:54:25 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,
+  ^
+../src/helloworld.c:188:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+../src/helloworld.c:191:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:191:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+../src/helloworld.c:177:8: warning: variable 'finout' set but not used [-Wunused-but-set-variable]
+  float finout[NOS][128];
+        ^
+../src/helloworld.c:174:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j, k;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/lib_hmm_hw.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_hmm_hw.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lib_hmm_hw.d" -MT"src/lib_hmm_hw.d" -o "src/lib_hmm_hw.o" "../src/lib_hmm_hw.c"
+../src/lib_hmm_hw.c: In function 'Start_HW_hmm':
+../src/lib_hmm_hw.c:123:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/lib_hmm_hw.c:128:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+'Finished building: ../src/lib_hmm_hw.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83520	   3168	1974108	2060796	 1f71fc	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+11:54:36 **** Clean-only build of configuration Debug for project dwt_hmm_timer ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o  ./src/helloworld.d ./src/lib_hmm_hw.d ./src/platform.d  dwt_hmm_timer.elf.size  dwt_hmm_timer.elf
+' '
+11:54:36 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,
+  ^
+../src/helloworld.c:188:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+../src/helloworld.c:191:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:191:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+../src/helloworld.c:177:8: warning: variable 'finout' set but not used [-Wunused-but-set-variable]
+  float finout[NOS][128];
+        ^
+../src/helloworld.c:174:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j, k;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/lib_hmm_hw.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_hmm_hw.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lib_hmm_hw.d" -MT"src/lib_hmm_hw.d" -o "src/lib_hmm_hw.o" "../src/lib_hmm_hw.c"
+../src/lib_hmm_hw.c: In function 'Start_HW_hmm':
+../src/lib_hmm_hw.c:123:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/lib_hmm_hw.c:128:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+'Finished building: ../src/lib_hmm_hw.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83520	   3168	1974108	2060796	 1f71fc	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+11:56:21 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,
+  ^
+../src/helloworld.c:188:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+../src/helloworld.c:191:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:191:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+../src/helloworld.c:308:34: error: 'fin_out' undeclared (first use in this function)
+        printf("%f ; %f ;%f ; \n",fin_out[0][i-1],fin_out[1][i-1],fin_out[2][i-1]);
+                                  ^
+../src/helloworld.c:308:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:177:8: warning: variable 'finout' set but not used [-Wunused-but-set-variable]
+  float finout[NOS][128];
+        ^
+../src/helloworld.c:174:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j, k;
+         ^
+make: *** [src/helloworld.o] Error 1
+11:56:50 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,
+  ^
+../src/helloworld.c:188:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+../src/helloworld.c:191:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:191:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+../src/helloworld.c:174:9: warning: unused variable 'j' [-Wunused-variable]
+  int i, j, k;
+         ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	1974108	2060860	 1f723c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+11:57:09 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,
+  ^
+../src/helloworld.c:188:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+../src/helloworld.c:191:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:191:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	1974108	2060860	 1f723c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+11:57:41 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,0.0759,0.9241,0,0.2191,0,0.7809};
+  ^
+../src/helloworld.c:188:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+../src/helloworld.c:189:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:189:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	1974108	2060860	 1f723c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+11:58:06 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:8: error: array type has incomplete element type
+  float t_mat[][]={0.9440,0.0395,0.0165,0.0759,0.9241,0,0.2191,0,0.7809};
+        ^
+../src/helloworld.c:189:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:189:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+../src/helloworld.c:188:8: warning: unused variable 't_mat' [-Wunused-variable]
+  float t_mat[][]={0.9440,0.0395,0.0165,0.0759,0.9241,0,0.2191,0,0.7809};
+        ^
+make: *** [src/helloworld.o] Error 1
+11:58:18 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,0.0759,0.9241,0,0.2191,0,0.7809};
+  ^
+../src/helloworld.c:188:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+../src/helloworld.c:189:2: warning: missing braces around initializer [-Wmissing-braces]
+  float emmision[NOS][NOE]={0.9595,0.0405,0,0,0,0,0,0,
+  ^
+../src/helloworld.c:189:2: warning: (near initialization for 'emmision[0]') [-Wmissing-braces]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	1974108	2060860	 1f723c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+11:59:16 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:188:2: warning: missing braces around initializer [-Wmissing-braces]
+  float t_mat[NOS][NOS]={0.9440,0.0395,0.0165,0.0759,0.9241,0,0.2191,0,0.7809};
+  ^
+../src/helloworld.c:188:2: warning: (near initialization for 't_mat[0]') [-Wmissing-braces]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	1974108	2060860	 1f723c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+12:00:06 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	1974108	2060860	 1f723c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+12:02:17 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	65019740	65106492	3e1723c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+13:58:48 **** Clean-only build of configuration Debug for project dwt_hmm_timer ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o  ./src/helloworld.d ./src/lib_hmm_hw.d ./src/platform.d  dwt_hmm_timer.elf.size  dwt_hmm_timer.elf
+' '
+13:58:48 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/lib_hmm_hw.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib_hmm_hw.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lib_hmm_hw.d" -MT"src/lib_hmm_hw.d" -o "src/lib_hmm_hw.o" "../src/lib_hmm_hw.c"
+../src/lib_hmm_hw.c: In function 'Start_HW_hmm':
+../src/lib_hmm_hw.c:123:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/lib_hmm_hw.c:128:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+'Finished building: ../src/lib_hmm_hw.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	65019740	65106492	3e1723c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+14:03:16 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	65019740	65106492	3e1723c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+14:04:02 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83584	   3168	65019788	65106540	3e1726c	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+14:06:53 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:212:16: warning: unused variable 'run_time_hw' [-Wunused-variable]
+   unsigned int run_time_hw = 0;
+                ^
+../src/helloworld.c:211:16: warning: unused variable 'run_time_sw' [-Wunused-variable]
+   unsigned int run_time_sw = 0;
+                ^
+../src/helloworld.c:210:16: warning: unused variable 'end_time' [-Wunused-variable]
+   unsigned int end_time;
+                ^
+../src/helloworld.c:209:16: warning: unused variable 'begin_time' [-Wunused-variable]
+   unsigned int begin_time;
+                ^
+../src/helloworld.c:208:38: warning: unused variable 'calibration' [-Wunused-variable]
+   unsigned int init_time, curr_time, calibration;
+                                      ^
+../src/helloworld.c:208:27: warning: unused variable 'curr_time' [-Wunused-variable]
+   unsigned int init_time, curr_time, calibration;
+                           ^
+../src/helloworld.c:208:16: warning: unused variable 'init_time' [-Wunused-variable]
+   unsigned int init_time, curr_time, calibration;
+                ^
+../src/helloworld.c:207:8: warning: unused variable 'acc_factor' [-Wunused-variable]
+  float acc_factor;
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83648	   3168	65019788	65106604	3e172ac	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+14:08:48 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:212:16: warning: unused variable 'run_time_hw' [-Wunused-variable]
+   unsigned int run_time_hw = 0;
+                ^
+../src/helloworld.c:211:16: warning: unused variable 'run_time_sw' [-Wunused-variable]
+   unsigned int run_time_sw = 0;
+                ^
+../src/helloworld.c:210:16: warning: unused variable 'end_time' [-Wunused-variable]
+   unsigned int end_time;
+                ^
+../src/helloworld.c:209:16: warning: unused variable 'begin_time' [-Wunused-variable]
+   unsigned int begin_time;
+                ^
+../src/helloworld.c:208:38: warning: unused variable 'calibration' [-Wunused-variable]
+   unsigned int init_time, curr_time, calibration;
+                                      ^
+../src/helloworld.c:208:27: warning: unused variable 'curr_time' [-Wunused-variable]
+   unsigned int init_time, curr_time, calibration;
+                           ^
+../src/helloworld.c:208:16: warning: unused variable 'init_time' [-Wunused-variable]
+   unsigned int init_time, curr_time, calibration;
+                ^
+../src/helloworld.c:207:8: warning: unused variable 'acc_factor' [-Wunused-variable]
+  float acc_factor;
+        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83648	   3168	65019788	65106604	3e172ac	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+14:15:25 **** Incremental Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+make: Nothing to be done for `all'.
+14:28:45 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87192	   3184	65019788	65110164	3e18094	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+14:49:23 **** Incremental Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+make: Nothing to be done for `all'.
+15:00:08 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:136:18: error: unknown type name 'seq_t'
+ void hmm_decoder(seq_t sequence[LEN],mat_t tran_mat[NOS][NOS],mat_t  emi_mat[NOS][NOE],mat_t  output[NOS][LEN])
+                  ^
+../src/helloworld.c:136:38: error: unknown type name 'mat_t'
+ void hmm_decoder(seq_t sequence[LEN],mat_t tran_mat[NOS][NOS],mat_t  emi_mat[NOS][NOE],mat_t  output[NOS][LEN])
+                                      ^
+../src/helloworld.c:136:63: error: unknown type name 'mat_t'
+ void hmm_decoder(seq_t sequence[LEN],mat_t tran_mat[NOS][NOS],mat_t  emi_mat[NOS][NOE],mat_t  output[NOS][LEN])
+                                                               ^
+../src/helloworld.c:136:88: error: unknown type name 'mat_t'
+ void hmm_decoder(seq_t sequence[LEN],mat_t tran_mat[NOS][NOS],mat_t  emi_mat[NOS][NOE],mat_t  output[NOS][LEN])
+                                                                                        ^
+make: *** [src/helloworld.o] Error 1
+15:01:15 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:136:31: error: 'LEN' undeclared here (not in a function)
+ void hmm_decoder(int sequence[LEN],float tran_mat[NOS][NOS],float  emi_mat[NOS][NOE],float  output[NOS][LEN])
+                               ^
+../src/helloworld.c: In function 'hmm_decoder':
+../src/helloworld.c:139:24: error: 'LEN' undeclared (first use in this function)
+ float forward_seq[NOS][LEN+1]={0};
+                        ^
+../src/helloworld.c:139:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:191:2: warning: label 'Output_inner_LOOP' defined but not used [-Wunused-label]
+  Output_inner_LOOP:for(k=0;k<NOS;k++)
+  ^
+../src/helloworld.c:189:1: warning: label 'Output_outer_LOOP' defined but not used [-Wunused-label]
+ Output_outer_LOOP:for(i=1;i<=LEN;i++)
+ ^
+../src/helloworld.c:183:16: warning: label 'Backward_MAC_LOOP' defined but not used [-Wunused-label]
+                Backward_MAC_LOOP:for(k=0;k<NOS;k++)
+                ^
+../src/helloworld.c:180:1: warning: label 'Backward_Inner_LOOP' defined but not used [-Wunused-label]
+ Backward_Inner_LOOP:for(j=0;j<NOS;j++)
+ ^
+../src/helloworld.c:176:1: warning: label 'Backward_outer_LOOP' defined but not used [-Wunused-label]
+ Backward_outer_LOOP:for(i=LEN;i>0;i--)
+ ^
+../src/helloworld.c:170:1: warning: label 'Forward_Scaling_Loop' defined but not used [-Wunused-label]
+ Forward_Scaling_Loop: for(j=0;j<NOS;j++)
+ ^
+../src/helloworld.c:163:24: warning: label 'Forward_MAC_LOOP' defined but not used [-Wunused-label]
+                        Forward_MAC_LOOP: for(k=0;k<NOS;k++)
+                        ^
+../src/helloworld.c:160:2: warning: label 'Forward_Inner_LOOP' defined but not used [-Wunused-label]
+  Forward_Inner_LOOP: for(j=0;j<NOS;j++)
+  ^
+../src/helloworld.c:155:1: warning: label 'Forward_outer_Loop' defined but not used [-Wunused-label]
+ Forward_outer_Loop: for(i=1;i<=LEN;i++)
+ ^
+../src/helloworld.c:141:7: warning: unused variable 'scaler' [-Wunused-variable]
+ float scaler[LEN+1]={0};
+       ^
+../src/helloworld.c:140:7: warning: unused variable 'backward_seq' [-Wunused-variable]
+ float backward_seq[NOS][LEN+1];
+       ^
+../src/helloworld.c:139:7: warning: unused variable 'forward_seq' [-Wunused-variable]
+ float forward_seq[NOS][LEN+1]={0};
+       ^
+make: *** [src/helloworld.o] Error 1
+15:02:48 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hmm_decoder':
+../src/helloworld.c:139:1: warning: missing braces around initializer [-Wmissing-braces]
+ float forward_seq[NOS][NUM_TESTS+1]={0};
+ ^
+../src/helloworld.c:139:1: warning: (near initialization for 'forward_seq[0]') [-Wmissing-braces]
+../src/helloworld.c:141:14: error: 'LEN' undeclared (first use in this function)
+ float scaler[LEN+1]={0};
+              ^
+../src/helloworld.c:141:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:191:2: warning: label 'Output_inner_LOOP' defined but not used [-Wunused-label]
+  Output_inner_LOOP:for(k=0;k<NOS;k++)
+  ^
+../src/helloworld.c:189:1: warning: label 'Output_outer_LOOP' defined but not used [-Wunused-label]
+ Output_outer_LOOP:for(i=1;i<=NUM_TESTS;i++)
+ ^
+../src/helloworld.c:183:16: warning: label 'Backward_MAC_LOOP' defined but not used [-Wunused-label]
+                Backward_MAC_LOOP:for(k=0;k<NOS;k++)
+                ^
+../src/helloworld.c:180:1: warning: label 'Backward_Inner_LOOP' defined but not used [-Wunused-label]
+ Backward_Inner_LOOP:for(j=0;j<NOS;j++)
+ ^
+../src/helloworld.c:176:1: warning: label 'Backward_outer_LOOP' defined but not used [-Wunused-label]
+ Backward_outer_LOOP:for(i=NUM_TESTS;i>0;i--)
+ ^
+../src/helloworld.c:170:1: warning: label 'Forward_Scaling_Loop' defined but not used [-Wunused-label]
+ Forward_Scaling_Loop: for(j=0;j<NOS;j++)
+ ^
+../src/helloworld.c:163:24: warning: label 'Forward_MAC_LOOP' defined but not used [-Wunused-label]
+                        Forward_MAC_LOOP: for(k=0;k<NOS;k++)
+                        ^
+../src/helloworld.c:160:2: warning: label 'Forward_Inner_LOOP' defined but not used [-Wunused-label]
+  Forward_Inner_LOOP: for(j=0;j<NOS;j++)
+  ^
+../src/helloworld.c:155:1: warning: label 'Forward_outer_Loop' defined but not used [-Wunused-label]
+ Forward_outer_Loop: for(i=1;i<=NUM_TESTS;i++)
+ ^
+../src/helloworld.c:141:7: warning: unused variable 'scaler' [-Wunused-variable]
+ float scaler[LEN+1]={0};
+       ^
+make: *** [src/helloworld.o] Error 1
+15:04:12 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hmm_decoder':
+../src/helloworld.c:139:1: warning: missing braces around initializer [-Wmissing-braces]
+ float forward_seq[NOS][NUM_TESTS+1]={0};
+ ^
+../src/helloworld.c:139:1: warning: (near initialization for 'forward_seq[0]') [-Wmissing-braces]
+../src/helloworld.c:141:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before '+' token
+ float scalerNUM_TESTS+1]={0};
+                      ^
+../src/helloworld.c:141:22: warning: statement with no effect [-Wunused-value]
+../src/helloworld.c:141:24: error: expected ';' before ']' token
+ float scalerNUM_TESTS+1]={0};
+                        ^
+../src/helloworld.c:141:24: error: expected statement before ']' token
+../src/helloworld.c:141:25: error: expected expression before '=' token
+ float scalerNUM_TESTS+1]={0};
+                         ^
+../src/helloworld.c:150:17: error: 'LEN' undeclared (first use in this function)
+ backward_seq[0][LEN]=1;
+                 ^
+../src/helloworld.c:150:17: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:153:1: error: 'scaler' undeclared (first use in this function)
+ scaler[0]=1;
+ ^
+../src/helloworld.c:163:24: warning: label 'Forward_MAC_LOOP' defined but not used [-Wunused-label]
+                        Forward_MAC_LOOP: for(k=0;k<NOS;k++)
+                        ^
+make: *** [src/helloworld.o] Error 1
+15:04:57 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hmm_decoder':
+../src/helloworld.c:139:1: warning: missing braces around initializer [-Wmissing-braces]
+ float forward_seq[NOS][NUM_TESTS+1]={0};
+ ^
+../src/helloworld.c:139:1: warning: (near initialization for 'forward_seq[0]') [-Wmissing-braces]
+../src/helloworld.c:164:24: warning: label 'Forward_MAC_LOOP' defined but not used [-Wunused-label]
+                        Forward_MAC_LOOP: for(k=0;k<NOS;k++)
+                        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  88600	   3184	65019788	65111572	3e18614	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+15:09:15 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hmm_decoder':
+../src/helloworld.c:139:1: warning: missing braces around initializer [-Wmissing-braces]
+ float forward_seq[NOS][NUM_TESTS+1]={0};
+ ^
+../src/helloworld.c:139:1: warning: (near initialization for 'forward_seq[0]') [-Wmissing-braces]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  88728	   3184	65019788	65111700	3e18694	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+15:10:25 **** Incremental Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+make: Nothing to be done for `all'.
+15:10:53 **** Incremental Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+make: Nothing to be done for `all'.
+15:12:19 **** Auto Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dwt_hmm_timer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'hmm_decoder':
+../src/helloworld.c:139:1: warning: missing braces around initializer [-Wmissing-braces]
+ float forward_seq[NOS][NUM_TESTS+1]={0};
+ ^
+../src/helloworld.c:139:1: warning: (near initialization for 'forward_seq[0]') [-Wmissing-braces]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dwt_hmm_timer.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dwt_hmm_timer_bsp/ps7_cortexa9_0/lib -o "dwt_hmm_timer.elf"  ./src/helloworld.o ./src/lib_hmm_hw.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dwt_hmm_timer.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dwt_hmm_timer.elf  |tee "dwt_hmm_timer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  88728	   3184	65019788	65111700	3e18694	dwt_hmm_timer.elf
+'Finished building: dwt_hmm_timer.elf.size'
+' '
+15:12:51 **** Incremental Build of configuration Debug for project dwt_hmm_timer ****
+make all 
+make: Nothing to be done for `all'.

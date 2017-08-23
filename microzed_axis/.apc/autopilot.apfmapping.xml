@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="hmmaccel.cpp" path="C:\Users\Hanyan\Desktop\board2\hmmaccel.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="hmm_test.cpp" path="C:\Users\Hanyan\Desktop\board2\hmm_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

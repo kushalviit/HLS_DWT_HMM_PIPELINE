@@ -1,0 +1,130 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="hmmfw_hw" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmfw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmfw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmfw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmfw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmfw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmfw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmbw_hw" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmbw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmbw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmbw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmbw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmbw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmmbw_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="hmm_hw" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="pop_stream" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="push_stream" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="ARRAY_PARTITION">
+<option name="variable" positionalBoolean="4" value="input1"/>
+<option name="complete" positionalBoolean="type" value=""/>
+<option name="dim" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="ARRAY_PARTITION">
+<option name="variable" positionalBoolean="4" value="input2"/>
+<option name="complete" positionalBoolean="type" value=""/>
+<option name="dim" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="ARRAY_PARTITION">
+<option name="variable" positionalBoolean="4" value="tran_mat"/>
+<option name="complete" positionalBoolean="type" value=""/>
+<option name="dim" value="2"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="ARRAY_PARTITION">
+<option name="variable" positionalBoolean="4" value="tem"/>
+<option name="complete" positionalBoolean="type" value=""/>
+<option name="dim" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="wrapped_hmm_hw" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="HLS_hmm" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="return"/>
+<option name="bundle" value="CONTROL_BUS"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="HLS_hmm" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="OUTPUT_STREAM"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="HLS_hmm" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="INPUT_STREAM"/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

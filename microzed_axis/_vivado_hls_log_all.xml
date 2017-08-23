@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SCHED-68] Unable to enforce a carried constraint (II = 4)&#xD;&#xA;   between 'fadd' operation ('temp', ./hmmaccel.h:141->./hmmaccel.h:213->./hmmaccel.h:329->hmmaccel.cpp:20) and 'fadd' operation ('temp', ./hmmaccel.h:141->./hmmaccel.h:213->./hmmaccel.h:329->hmmaccel.cpp:20)." projectName="microzed_axis" solutionName="solution1" date="2017-08-19T13:40:15.589-0500" type="Warning"/>
+        <logs message="@W [SCHED-68] Unable to enforce a carried constraint (II = 3)&#xD;&#xA;   between 'fadd' operation ('temp', ./hmmaccel.h:141->./hmmaccel.h:213->./hmmaccel.h:329->hmmaccel.cpp:20) and 'fadd' operation ('temp', ./hmmaccel.h:141->./hmmaccel.h:213->./hmmaccel.h:329->hmmaccel.cpp:20)." projectName="microzed_axis" solutionName="solution1" date="2017-08-19T13:40:15.583-0500" type="Warning"/>
+        <logs message="@W [SCHED-68] Unable to enforce a carried constraint (II = 2)&#xD;&#xA;   between 'fadd' operation ('temp', ./hmmaccel.h:141->./hmmaccel.h:213->./hmmaccel.h:329->hmmaccel.cpp:20) and 'fadd' operation ('temp', ./hmmaccel.h:141->./hmmaccel.h:213->./hmmaccel.h:329->hmmaccel.cpp:20)." projectName="microzed_axis" solutionName="solution1" date="2017-08-19T13:40:15.577-0500" type="Warning"/>
+        <logs message="@W [SCHED-68] Unable to enforce a carried constraint (II = 1)&#xD;&#xA;   between 'fadd' operation ('temp', ./hmmaccel.h:141->./hmmaccel.h:213->./hmmaccel.h:329->hmmaccel.cpp:20) and 'fadd' operation ('temp', ./hmmaccel.h:141->./hmmaccel.h:213->./hmmaccel.h:329->hmmaccel.cpp:20)." projectName="microzed_axis" solutionName="solution1" date="2017-08-19T13:40:15.570-0500" type="Warning"/>
+        <logs message="@W [XFORM-505] Ignored pipeline directive for loop 'L2' (./hmmaccel.h:118) because its parent loop or function is pipelined." projectName="microzed_axis" solutionName="solution1" date="2017-08-19T13:40:14.217-0500" type="Warning"/>
+        <logs message="@W [XFORM-505] Ignored pipeline directive for loop 'B2' (./hmmaccel.h:177) because its parent loop or function is pipelined." projectName="microzed_axis" solutionName="solution1" date="2017-08-19T13:40:14.184-0500" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
